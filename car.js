@@ -83,11 +83,11 @@ const moveLeft = document.getElementById("moveLeft");
 const moveRight = document.getElementById("moveRight");
 
 stepLeft.addEventListener("click", () => {
-  myCar.moveLeft("10");
+  myCar.moveLeft(10);
 });
 
 stepRight.addEventListener("click", () => {
-  myCar.moveLeft("-10");
+  myCar.moveRight(10);
 });
 
 moveLeft.addEventListener("click", () => {
